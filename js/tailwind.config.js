@@ -9,7 +9,7 @@ tailwind.config = {
           boxbg: '#FFF5EB'
         },
         maxWidth: {
-          'container': '1280px',
+          'container': '1536px',
         },
         fontWeight: {
             light: '300',
