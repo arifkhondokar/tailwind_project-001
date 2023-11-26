@@ -8,11 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <title>finsweet</title>
+    <link rel="stylesheet" href="./css-scroll-bar/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="relative">
+    <!-- ------------------------scroll-bar----------- -->
+    <div class="bar"></div>
+
+    <div class="round">
+        <span>10%</span>
+    </div>
+
     <!-- ------------navbar seart here---------------- -->
-    <nav class="py-3 bg-navbg" >
+    <nav class="py-3 bg-navbg fixed w-full z-50 nav_bar" >
         <div class="w-full 2xl:max-w-container mx-auto">
             <div class="flex items-center justify-between mx-2 lg:mx-3">
                 <div class="w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] after:bg-transparent lg:after:bg-white after:top-[-24px] after:right-0 after:opacity-25">
@@ -367,6 +375,7 @@
     </footer>
     <!-- ---------------------footer section end here--------------- -->
 
+    <script src="./js/script.js"></script>
     <script src="./js/tailwind.config.js"></script>
 </body>
 </html>
