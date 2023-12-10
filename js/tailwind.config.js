@@ -1,6 +1,15 @@
 tailwind.config = {
     theme: {
       extend: {
+        screens: {
+          'xs': '400px',
+          'sm': '576px',
+          'md': '768px',
+          'lg': '992px',
+          'xl': '1200px',
+          '2xl': '1400px',
+          '3xl': '1600px',
+        },
         colors: {
           navbg: '#0D0D0D',
           primary: '#FFD2A4',
@@ -9,7 +18,7 @@ tailwind.config = {
           boxbg: '#FFF5EB'
         },
         maxWidth: {
-          'container': '1536px',
+          'container': '1600px',
         },
         fontWeight: {
             light: '300',
